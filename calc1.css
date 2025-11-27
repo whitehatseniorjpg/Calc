@@ -1,0 +1,113 @@
+body {
+  background: url('https://t4.ftcdn.net/jpg/02/81/02/63/360_F_281026300_lAO74tXEb7rXPpUyR1antfcfXQSBEtdq.jpg')
+              no-repeat center center fixed;
+  
+  background-size: cover;        
+     
+
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;                   
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.header {
+  background: #00f815;
+  
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+.section {
+     background: url('https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg') 
+       no-repeat center center fixed;
+  
+  width: 350px;
+  margin: auto;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  backdrop-filter: blur(6px);
+}
+
+
+input[type="number"], select {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.2s ease-in-out;
+}
+
+
+input:focus, select:focus {
+  border-color: #0aaa12;
+  background-color: #eef4ff;
+  box-shadow: 0 0 5px rgba(0,74,173,0.3);
+}
+
+
+button {
+  background: #0d6314;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+
+button:hover {
+  background: #00ff22;
+  box-shadow: 0 5px 15px rgba(13, 136, 44, 0.3);
+  transform: translateY(-2px);
+}
+
+
+#result {
+  background-color: #eef4ff;
+  color: #15a808;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 2px solid #d61515;
+  margin-top: 5px;
+  min-height: 20px;
+}
+
+
+
+
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #333;
+  font-weight: 500;
+  background-color: rgb(230, 158, 155);
+  letter-spacing: 0.5px;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
